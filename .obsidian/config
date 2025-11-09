@@ -1,0 +1,93 @@
+{
+  "pluginEnabledStatus": {
+    "file-explorer": true,
+    "global-search": true,
+    "switcher": true,
+    "graph": true,
+    "backlink": true,
+    "outgoing-link": true,
+    "tag-pane": true,
+    "page-preview": true,
+    "daily-notes": true,
+    "templates": true,
+    "note-composer": true,
+    "command-palette": true,
+    "markdown-importer": true,
+    "word-count": true,
+    "open-with-default-app": true,
+    "file-recovery": true
+  },
+  "enabledPlugins": [
+    "dataview",
+    "templater-obsidian",
+    "quickadd",
+    "calendar",
+    "periodic-notes",
+    "obsidian-tracker-plugin",
+    "obsidian-charts",
+    "obsidian-style-settings"
+  ],
+  "theme": "obsidian",
+  "cssTheme": "Minimal",
+  "baseFontSize": 16,
+  "showLineNumber": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showFrontmatter": true,
+  "showIndentGuide": true,
+  "strictLineBreaks": false,
+  "tabSize": 2,
+  "useTab": false,
+  "vimMode": false,
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "Assets/Images",
+  "newFileLocation": "current",
+  "promptDelete": true,
+  "trashOption": "local",
+  "hotkeys": {
+    "editor:toggle-bold": [
+      {
+        "modifiers": ["Mod"],
+        "key": "b"
+      }
+    ],
+    "editor:toggle-italics": [
+      {
+        "modifiers": ["Mod"],
+        "key": "i"
+      }
+    ],
+    "editor:toggle-highlight": [
+      {
+        "modifiers": ["Mod", "Shift"],
+        "key": "h"
+      }
+    ],
+    "editor:toggle-code": [
+      {
+        "modifiers": ["Mod"],
+        "key": "e"
+      }
+    ],
+    "templater-obsidian:insert-templater": [
+      {
+        "modifiers": ["Mod", "Shift"],
+        "key": "t"
+      }
+    ],
+    "quickadd:run-quickadd": [
+      {
+        "modifiers": ["Mod", "Shift"],
+        "key": "a"
+      }
+    ],
+    "daily-notes": [
+      {
+        "modifiers": ["Mod", "Shift"],
+        "key": "d"
+      }
+    ]
+  }
+}

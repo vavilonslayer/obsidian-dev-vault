@@ -1,0 +1,11 @@
+{
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "baseFontSize": 16,
+  "accentColor": "#4c9aff",
+  "translucency": false,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "custom-styles"
+  ]
+}
