@@ -1,0 +1,6 @@
+{
+  "format": "YYYY-MM-DD",
+  "folder": "Dashboard/Daily",
+  "template": "Templates/Template-Daily-Note.md",
+  "autorun": false
+}

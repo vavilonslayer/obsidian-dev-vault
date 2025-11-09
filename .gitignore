@@ -1,0 +1,26 @@
+# Do not commit workspace cache
+.obsidian/workspace.json
+.obsidian/workspace
+.obsidian/workspace-mobile.json
+
+# Ignore plugin caches
+.obsidian/plugins/*/
+.obsidian/cache
+
+# Ignore trash
+.trash/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.temp
+~*
+
+# Keep only configuration files
+!.obsidian/config
+!.obsidian/*.json
+!.obsidian/snippets/
+!.obsidian/themes/
