@@ -1,4 +1,4 @@
-# 🚀 Setup Guide - Obsidian Dev Vault
+# 🚀 Руководство по настройке - Obsidian Dev Vault
 
 > Пошаговая инструкция по настройке вашего Obsidian vault
 
@@ -27,7 +27,7 @@ cd obsidian-dev-vault
 ### Шаг 2: Открыть в Obsidian
 
 1. Запустить Obsidian
-2. Нажать "Open folder as vault"
+2. Нажать "Открыть папку как хранилище"
 3. Выбрать папку `obsidian-dev-vault`
 4. Obsidian откроет vault
 
@@ -37,68 +37,68 @@ cd obsidian-dev-vault
 
 ### Включение Community Plugins
 
-1. Открыть **Settings** (⚙️ иконка внизу слева)
-2. Перейти в **Community plugins**
-3. Нажать **Turn on community plugins**
+1. Открыть **Настройки** (⚙️ иконка внизу слева)
+2. Перейти в **Сторонние плагины**
+3. Нажать **Включить сторонние плагины**
 4. Подтвердить включение
 
 ### Установка обязательных плагинов
 
 #### 1. Dataview
 ```
-Settings → Community plugins → Browse → Поиск "Dataview" → Install → Enable
+Настройки → Сторонние плагины → Обзор → Поиск "Dataview" → Установить → Включить
 ```
 
 **Конфигурация:**
-- Settings → Dataview
-- ✅ Enable JavaScript Queries
-- ✅ Enable Inline Queries
-- ✅ Enable Inline JavaScript Queries
+- Настройки → Dataview
+- ✅ Включить JavaScript запросы
+- ✅ Включить Встроенные запросы
+- ✅ Включить Inline JavaScript запросы
 
 #### 2. Templater
 ```
-Settings → Community plugins → Browse → Поиск "Templater" → Install → Enable
+Настройки → Сторонние плагины → Обзор → Поиск "Templater" → Установить → Включить
 ```
 
 **Конфигурация:**
-- Settings → Templater
-- Template folder location: `Templates`
-- ✅ Trigger Templater on new file creation: OFF (по умолчанию)
-- Hotkey: `Cmd/Ctrl + Shift + T`
+- Настройки → Templater
+- Расположение папки шаблонов: `Templates`
+- ✅ Запускать Templater при создании нового файла: OFF (по умолчанию)
+- Горячая клавиша: `Cmd/Ctrl + Shift + T`
 
 #### 3. Calendar
 ```
-Settings → Community plugins → Browse → Поиск "Calendar" → Install → Enable
+Настройки → Сторонние плагины → Обзор → Поиск "Calendar" → Установить → Включить
 ```
 
 **Конфигурация:**
 - Создает календарь в боковой панели
-- Клик по дате создает Daily Note
+- Клик по дате создает Дневная заметка
 
 ### Рекомендуемые плагины
 
 #### QuickAdd
 Быстрое создание заметок с шаблонами
 ```
-Settings → Community plugins → Browse → "QuickAdd"
+Настройки → Сторонние плагины → Обзор → "QuickAdd"
 ```
 
 #### Periodic Notes
 Ежедневные, еженедельные, месячные обзоры
 ```
-Settings → Community plugins → Browse → "Periodic Notes"
+Настройки → Сторонние плагины → Обзор → "Periodic Notes"
 ```
 
 #### Tracker
 Трекинг привычек и метрик
 ```
-Settings → Community plugins → Browse → "Tracker"
+Настройки → Сторонние плагины → Обзор → "Tracker"
 ```
 
 #### Obsidian Charts
 Визуализация данных
 ```
-Settings → Community plugins → Browse → "Obsidian Charts"
+Настройки → Сторонние плагины → Обзор → "Obsidian Charts"
 ```
 
 ---
@@ -107,10 +107,10 @@ Settings → Community plugins → Browse → "Obsidian Charts"
 
 ### Установка Minimal Theme
 
-1. Settings → Appearance → Themes → Manage
+1. Настройки → Внешний вид → Темы → Управление
 2. Поиск "Minimal"
-3. Install and use
-4. Settings → Appearance → CSS snippets
+3. Установить and use
+4. Настройки → Внешний вид → CSS сниппеты
 5. ✅ Включить `custom-styles`
 
 ### Альтернативные темы
@@ -127,12 +127,12 @@ Settings → Community plugins → Browse → "Obsidian Charts"
 
 ## 📁 Настройка хранения файлов
 
-### Attachment Location
+### Расположение вложений
 
 **Важно:** Все изображения должны сохраняться в `Assets/Images`
 
-1. Settings → Files & Links
-2. **Default location for new attachments:** `Assets/Images`
+1. Настройки → Файлы и ссылки
+2. **Место для новых вложений по умолчанию:** `Assets/Images`
 3. ✅ Automatically update internal links: ON
 4. New link format: `Shortest path`
 
@@ -140,7 +140,7 @@ Settings → Community plugins → Browse → "Obsidian Charts"
 
 Для автоматического переименования вставляемых изображений:
 ```
-Settings → Community plugins → Browse → "Paste Image Rename"
+Настройки → Сторонние плагины → Обзор → "Paste Image Rename"
 ```
 
 Конфигурация:
@@ -155,7 +155,7 @@ Settings → Community plugins → Browse → "Paste Image Rename"
 
 Уже настроены в vault:
 
-| Команда | Hotkey | Описание |
+| Команда | Горячая клавиша | Описание |
 |---------|--------|----------|
 | Bold | `Cmd/Ctrl + B` | Выделить текст жирным |
 | Italic | `Cmd/Ctrl + I` | Курсив |
@@ -163,11 +163,11 @@ Settings → Community plugins → Browse → "Paste Image Rename"
 | Code | `Cmd/Ctrl + E` | Inline code |
 | Insert Template | `Cmd/Ctrl + Shift + T` | Вставить шаблон |
 | QuickAdd | `Cmd/Ctrl + Shift + A` | Быстрое добавление |
-| Daily Note | `Cmd/Ctrl + Shift + D` | Открыть/создать дневную заметку |
+| Дневная заметка | `Cmd/Ctrl + Shift + D` | Открыть/создать дневную заметку |
 
 ### Дополнительные (рекомендуем настроить)
 
-1. Settings → Hotkeys
+1. Настройки → Горячая клавишаs
 2. Поиск команды
 3. Назначить клавиши
 
@@ -202,7 +202,7 @@ Settings → Community plugins → Browse → "Paste Image Rename"
 
 ### Тест 4: CSS стили применены
 
-1. Settings → Appearance → CSS snippets
+1. Настройки → Внешний вид → CSS сниппеты
 2. ✅ `custom-styles` должен быть включен
 3. Перезагрузить Obsidian если нужно
 
@@ -233,20 +233,20 @@ Settings → Community plugins → Browse → "Paste Image Rename"
 
 ### 4. Установить ритм
 
-- Используйте Daily Notes для ежедневного планирования
+- Используйте Дневная заметкаs для ежедневного планирования
 - Weekly Review для еженедельных обзоров
 - Обновляйте Dashboard регулярно
 
 ---
 
-## 🔧 Troubleshooting
+## 🔧 Устранение неполадок
 
 ### Dataview не работает
 
 **Проблема:** Dataview queries не отображаются
 
 **Решение:**
-1. Settings → Dataview → ✅ Enable JavaScript Queries
+1. Настройки → Dataview → ✅ Включить JavaScript запросы
 2. Перезагрузить Obsidian (`Cmd/Ctrl + R`)
 3. Проверить синтаксис query
 
@@ -264,7 +264,7 @@ Settings → Community plugins → Browse → "Paste Image Rename"
 **Проблема:** Templater не работает
 
 **Решение:**
-1. Settings → Templater → Template folder: `Templates`
+1. Настройки → Templater → Template folder: `Templates`
 2. Убедиться что плагин включен
 3. Перезагрузить Obsidian
 
@@ -273,7 +273,7 @@ Settings → Community plugins → Browse → "Paste Image Rename"
 **Проблема:** Кастомные стили не видны
 
 **Решение:**
-1. Settings → Appearance → CSS snippets
+1. Настройки → Внешний вид → CSS сниппеты
 2. ✅ Включить `custom-styles`
 3. Reload Obsidian
 
@@ -281,11 +281,11 @@ Settings → Community plugins → Browse → "Paste Image Rename"
 
 ## 📱 Мобильная версия
 
-### Obsidian Mobile
+### Obsidian Мобильная версия
 
 1. Установить Obsidian на iOS/Android
 2. Синхронизировать через:
-   - Obsidian Sync (платно, официальный)
+   - Obsidian Синхронизация (платно, официальный)
    - Git (бесплатно, через плагин)
    - iCloud/Google Drive (бесплатно)
 
@@ -313,12 +313,12 @@ git commit -m "Update vault"
 git push origin main
 ```
 
-### Obsidian Sync
+### Obsidian Синхронизация
 
 Официальный платный сервис ($8/месяц):
 - Автоматическая синхронизация
 - End-to-end encryption
-- Version history
+- История версий
 
 ---
 
@@ -326,7 +326,7 @@ git push origin main
 
 ### Workflow tips
 
-1. **Утром:** Открыть Daily Note, поставить цели
+1. **Утром:** Открыть Дневная заметка, поставить цели
 2. **В течение дня:** Делать заметки, обновлять progress
 3. **Вечером:** Review выполненных задач
 4. **Еженедельно:** Weekly Review
@@ -373,13 +373,13 @@ git push origin main
 После setup проверьте:
 
 - [ ] Obsidian открыт с vault
-- [ ] Community plugins включены
+- [ ] Сторонние плагины включены
 - [ ] Dataview установлен и работает
 - [ ] Templater установлен и настроен
 - [ ] Тема применена (Minimal или другая)
-- [ ] CSS snippets включены
+- [ ] CSS сниппеты включены
 - [ ] Attachment location: `Assets/Images`
-- [ ] Hotkeys настроены
+- [ ] Горячая клавишаs настроены
 - [ ] Dashboard.md открывается корректно
 - [ ] Progress bars отображаются
 - [ ] Можно создать заметку с шаблоном
@@ -392,7 +392,7 @@ git push origin main
 
 Начните с `Dashboard.md` и исследуйте vault.
 
-**Happy note-taking! 📝**
+**Приятных заметок! 📝**
 
 ---
 

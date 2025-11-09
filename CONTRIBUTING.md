@@ -1,4 +1,4 @@
-# 🤝 Contributing Guide
+# 🤝 Руководство по внесению вклада
 
 > Как внести свой вклад в Obsidian Dev Vault
 
@@ -40,7 +40,7 @@
 - Полезные переиспользуемые фрагменты
 - С подробной документацией
 - Примеры использования
-- Best practices
+- Лучшие практики
 
 #### Notes
 - Концепции и теория
@@ -126,7 +126,7 @@ def double_value(number: int) -> int:
 
 ## 🔄 Процесс contribution
 
-### 1. Fork & Clone
+### 1. Fork и клонирование
 
 ```bash
 # Fork на GitHub
@@ -149,21 +149,21 @@ git checkout -b content/add-ml-course
 - Следуйте структуре и стандартам
 - Проверьте в Obsidian
 
-### 4. Commit
+### 4. Коммит
 
 ```bash
 git add .
 git commit -m "Add: Deep Learning course notes"
 ```
 
-**Commit message guidelines:**
+**Коммит message guidelines:**
 - `Add:` новый контент
 - `Update:` обновление существующего
 - `Fix:` исправление ошибок
 - `Refactor:` реструктуризация
 - `Docs:` документация
 
-### 5. Push & Pull Request
+### 5. Отправка и Pull Request
 
 ```bash
 git push origin feature/your-feature-name
@@ -176,7 +176,7 @@ git push origin feature/your-feature-name
 
 ---
 
-## ✅ Checklist перед PR
+## ✅ Контрольный список перед PR
 
 ### Контент
 - [ ] Следует структуре существующих файлов
@@ -204,7 +204,7 @@ git push origin feature/your-feature-name
 
 ## 🎨 Темы для contribution
 
-### High Priority
+### Высокий приоритет
 
 **Больше примеров контента:**
 - [ ] Advanced ML курсы (NLP, RL)
@@ -224,7 +224,7 @@ git push origin feature/your-feature-name
 - [ ] Git hooks для consistency
 - [ ] CI/CD для validation
 
-### Medium Priority
+### Средний приоритет
 
 **Расширение категорий:**
 - [ ] Frontend development section
@@ -238,7 +238,7 @@ git push origin feature/your-feature-name
 - [ ] VSCode workspace setup
 - [ ] Docker development environment
 
-### Community Requests
+### Запросы сообщества
 
 Проверьте [Issues](https://github.com/vavilonslayer/obsidian-dev-vault/issues) для community requests.
 
@@ -375,6 +375,6 @@ Contributors будут:
 
 ---
 
-**Happy Contributing! 🚀**
+**Успешного вклада! 🚀**
 
 *Questions? Open an issue or start a discussion!*

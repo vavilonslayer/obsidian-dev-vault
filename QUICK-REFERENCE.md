@@ -1,4 +1,4 @@
-# ⚡ Quick Reference Guide
+# ⚡ Краткий справочник
 
 > Быстрая шпаргалка по использованию Obsidian Dev Vault
 
@@ -13,7 +13,7 @@
 | ⚙️ Курсы DevOps | `Courses/DevOps/` | DevOps курсы |
 | 💻 Проекты | `Projects/` | Мои проекты |
 | 🧠 Интервью | `Interview Prep/` | Подготовка к собеседованиям |
-| 🧰 Сниппеты | `Snippets/` | Code snippets |
+| 🧰 Сниппеты | `Snippets/` | Код snippets |
 | 📝 Заметки | `Notes/` | Общие заметки |
 
 ---
@@ -21,22 +21,22 @@
 ## ⌨️ Горячие клавиши
 
 ### Редактирование
-- `Cmd/Ctrl + B` - **Bold**
-- `Cmd/Ctrl + I` - *Italic*
-- `Cmd/Ctrl + E` - `Code`
-- `Cmd/Ctrl + K` - Create link
-- `Cmd/Ctrl + Shift + H` - ==Highlight==
+- `Cmd/Ctrl + B` - **Жирный**
+- `Cmd/Ctrl + I` - *Курсив*
+- `Cmd/Ctrl + E` - `Код`
+- `Cmd/Ctrl + K` - Создать ссылку
+- `Cmd/Ctrl + Shift + H` - ==Выделение==
 
 ### Навигация
-- `Cmd/Ctrl + O` - Quick switcher
-- `Cmd/Ctrl + P` - Command palette
-- `Cmd/Ctrl + Shift + F` - Search in files
-- `Cmd/Ctrl + G` - Graph view
-- `Cmd/Ctrl + E` - Toggle edit/preview
+- `Cmd/Ctrl + O` - Быстрое переключение
+- `Cmd/Ctrl + P` - Палитра команд
+- `Cmd/Ctrl + Shift + F` - Поиск в файлах
+- `Cmd/Ctrl + G` - Граф связей
+- `Cmd/Ctrl + E` - Переключить редактирование/просмотр
 
 ### Специальные
-- `Cmd/Ctrl + Shift + T` - Insert template
-- `Cmd/Ctrl + Shift + D` - Daily note
+- `Cmd/Ctrl + Shift + T` - Вставить шаблон
+- `Cmd/Ctrl + Shift + D` - Дневная заметка
 - `Cmd/Ctrl + Shift + A` - QuickAdd
 
 ---
@@ -52,10 +52,10 @@
 
 ### Форматирование
 ```markdown
-**Bold**
-*Italic*
-==Highlight==
-`Code`
+**Жирный**
+*Курсив*
+==Выделение==
+`Код`
 ~~Strikethrough~~
 ```
 
@@ -88,7 +88,7 @@
 ![Alt text](https://url.com/image.png)
 ```
 
-### Code Blocks
+### Код Blocks
 ````markdown
 ```python
 def hello():
@@ -313,7 +313,7 @@ created: 2024-03-01
 - "Toggle right sidebar"
 - "Open graph view"
 - "Search and replace"
-- "Insert template"
+- "Вставить шаблон"
 - "Export to PDF"
 
 ---
@@ -322,22 +322,22 @@ created: 2024-03-01
 
 ### Включить/выключить плагин
 ```
-Settings → Community plugins → Плагин → Toggle
+Настройки → Сторонние плагины → Плагин → Toggle
 ```
 
 ### Изменить тему
 ```
-Settings → Appearance → Themes → Choose
+Настройки → Appearance → Themes → Choose
 ```
 
 ### Настроить hotkey
 ```
-Settings → Hotkeys → Search → Assign
+Настройки → Hotkeys → Search → Assign
 ```
 
 ### Включить CSS snippet
 ```
-Settings → Appearance → CSS snippets → Toggle
+Настройки → Appearance → CSS snippets → Toggle
 ```
 
 ---

@@ -1,20 +1,20 @@
-# 📝 Changelog
+# 📝 История изменений
 
-All notable changes to this Obsidian Dev Vault will be documented in this file.
+Все значимые изменения to this Obsidian Dev Vault будут задокументированы in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+Формат основан на [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
 ## [1.0.0] - 2024-03-09
 
-### 🎉 Initial Release
+### 🎉 Первый релиз
 
-#### ✨ Added
+#### ✨ Добавлено
 
-**Core Structure:**
-- Complete folder structure for ML & DevOps developer vault
-- Dashboard with visual progress bars and interactive sections
+**Основная структура:**
+- Полная структура папок for ML & DevOps developer vault
+- Панель управления с visual progress bars and interactive sections
 - Progress analytics dashboard with detailed metrics
 - Weekly review template for productivity tracking
 
@@ -112,7 +112,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 - [ ] Soft skills notes
 - [ ] Company interview guides
 
-#### Visualization
+#### Визуализация
 - [ ] Charts for time tracking
 - [ ] Graph view optimizations
 - [ ] Custom dashboards per category
@@ -121,7 +121,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 #### Community
 - [ ] Shared template library
 - [ ] Community snippets collection
-- [ ] Best practices guide
+- [ ] Лучшие практики guide
 - [ ] Video tutorials
 
 ---
@@ -167,7 +167,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ## 🔗 Version Links
 
-- [1.0.0](https://github.com/vavilonslayer/obsidian-dev-vault/releases/tag/v1.0.0) - Initial Release
+- [1.0.0](https://github.com/vavilonslayer/obsidian-dev-vault/releases/tag/v1.0.0) - Первый релиз
 
 ---
 
@@ -184,7 +184,7 @@ Have suggestions for the next version?
 *This changelog follows [Semantic Versioning](https://semver.org/)*
 
 **Legend:**
-- ✨ Added - New features
+- ✨ Добавлено - New features
 - 🔄 Changed - Changes in existing functionality
 - 🗑️ Deprecated - Soon-to-be removed features
 - ❌ Removed - Removed features

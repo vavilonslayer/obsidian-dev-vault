@@ -1,4 +1,4 @@
-# 📊 Vault Structure Visualization
+# 📊 Визуализация структуры хранилища
 
 > Визуальное представление структуры Obsidian Dev Vault
 

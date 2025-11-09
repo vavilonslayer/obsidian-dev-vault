@@ -148,12 +148,12 @@ obsidian-dev-vault/
 git clone https://github.com/vavilonslayer/obsidian-dev-vault.git
 
 # Открыть в Obsidian
-# File → Open Vault → Выбрать папку obsidian-dev-vault
+# Файл → Открыть хранилище → Выбрать папку obsidian-dev-vault
 ```
 
 ### 2. Установка плагинов
-1. Открыть Settings → Community plugins
-2. Включить community plugins
+1. Открыть Настройки → Сторонние плагины
+2. Включить сторонние плагины
 3. Установить рекомендуемые плагины:
    - Dataview
    - Templater
@@ -161,9 +161,9 @@ git clone https://github.com/vavilonslayer/obsidian-dev-vault.git
    - QuickAdd
 
 ### 3. Настройка
-1. Settings → Files & Links → Default location for new attachments: `Assets/Images`
-2. Settings → Appearance → CSS snippets: Включить `custom-styles.css`
-3. Settings → Hotkeys: Настроить под себя (уже есть базовые)
+1. Настройки → Файлы и ссылки → Место для новых вложений по умолчанию: `Assets/Images`
+2. Настройки → Внешний вид → CSS сниппеты: Включить `custom-styles.css`
+3. Настройки → Горячие клавиши: Настроить под себя (уже есть базовые)
 
 ### 4. Начало работы
 1. Открыть `Dashboard.md` - главная страница
@@ -228,18 +228,18 @@ SORT progress DESC
 ## 🔧 Настройки
 
 ### Горячие клавиши (по умолчанию)
-- `Cmd/Ctrl + B` - Bold
-- `Cmd/Ctrl + I` - Italic
-- `Cmd/Ctrl + Shift + H` - Highlight
-- `Cmd/Ctrl + E` - Code
-- `Cmd/Ctrl + Shift + T` - Insert Template
+- `Cmd/Ctrl + B` - Жирный
+- `Cmd/Ctrl + I` - Курсив
+- `Cmd/Ctrl + Shift + H` - Выделение
+- `Cmd/Ctrl + E` - Код
+- `Cmd/Ctrl + Shift + T` - Вставить шаблон
 - `Cmd/Ctrl + Shift + A` - QuickAdd
-- `Cmd/Ctrl + Shift + D` - Daily Note
+- `Cmd/Ctrl + Shift + D` - Дневная заметка
 
 ### Автоматическое сохранение изображений
 Все изображения автоматически сохраняются в `Assets/Images/`
 
-Настройка: Settings → Files & Links → Default location for new attachments
+Настройка: Настройки → Файлы и ссылки → Место для новых вложений по умолчанию
 
 ---
 
@@ -281,7 +281,7 @@ MIT License - свободно используйте и модифицируй�
 
 Это хранилище создано для того, чтобы сделать обучение и работу программиста более организованной, визуальной и продуктивной. Надеюсь, оно поможет вам в достижении ваших целей!
 
-**Happy Learning! 🚀**
+**Успешного обучения! 🚀**
 
 ---
 

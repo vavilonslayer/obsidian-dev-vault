@@ -22,10 +22,10 @@ Given an array of integers `nums` and an integer `target`, return indices of the
 
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-**Example:**
+**Пример:**
 ```
 Input: nums = [2,7,11,15], target = 9
-Output: [0,1]
+Вывод: [0,1]
 Explanation: nums[0] + nums[1] == 9, return [0,1]
 ```
 
@@ -43,14 +43,14 @@ Explanation: nums[0] + nums[1] == 9, return [0,1]
 
 **Подход 1: Brute Force (не оптимальный)**
 - Проверить каждую пару элементов
-- Time: O(n²), Space: O(1)
+- Время: O(n²), Память: O(1)
 - Не подходит для больших массивов
 
 **Подход 2: Hash Map (оптимальный)**
 - За один проход создаем map: {значение: индекс}
 - Для каждого элемента ищем complement = target - element
 - Если complement есть в map - нашли решение
-- Time: O(n), Space: O(n)
+- Время: O(n), Память: O(n)
 
 **Почему это работает:**
 Если a + b = target, то b = target - a. Сохраняя все элементы в hash map, мы можем за O(1) проверить существование complement.
@@ -59,13 +59,13 @@ Explanation: nums[0] + nums[1] == 9, return [0,1]
 
 ## 💻 Примеры кода
 
-### Пример 1: Hash Map Solution
+### Пример 1: Hash Map Решение
 
 ```python
 def two_sum(nums: list[int], target: int) -> list[int]:
     """
     Find two numbers that add up to target
-    Time: O(n), Space: O(n)
+    Время: O(n), Память: O(n)
     """
     seen = {}  # {value: index}
     
@@ -82,7 +82,7 @@ def two_sum(nums: list[int], target: int) -> list[int]:
 # Test
 nums = [2, 7, 11, 15]
 target = 9
-print(two_sum(nums, target))  # Output: [0, 1]
+print(two_sum(nums, target))  # Вывод: [0, 1]
 ```
 
 **Сложность:** O(n)  
@@ -110,7 +110,7 @@ def two_sum_safe(nums: list[int], target: int) -> list[int]:
     
     raise ValueError("No solution exists")
 
-# Usage
+# Использование
 try:
     result = two_sum_safe([2, 7, 11, 15], 9)
     print(f"Indices: {result}")
@@ -124,7 +124,7 @@ except ValueError as e:
 def two_sum_sorted(nums: list[int], target: int) -> list[int]:
     """
     If array is sorted, use two pointers
-    Time: O(n), Space: O(1) (excluding sort)
+    Время: O(n), Память: O(1) (excluding sort)
     Note: Returns values, not original indices
     """
     left, right = 0, len(nums) - 1
@@ -178,7 +178,7 @@ def two_sum_sorted(nums: list[int], target: int) -> list[int]:
 
 3. **Как решить Three Sum?**
    - Фиксируем один элемент, применяем Two Sum к остальным
-   - Time: O(n²), Space: O(1)
+   - Время: O(n²), Память: O(1)
 
 ---
 

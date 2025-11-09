@@ -118,7 +118,7 @@ class ModelTrainer:
         """
         Train the model for multiple epochs
         
-        Args:
+        Аргументы:
             epochs: Number of epochs to train
             early_stopping_patience: Stop if no improvement for N epochs
         """
